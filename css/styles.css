@@ -50,7 +50,7 @@ ul {
   margin: 0 auto;
 }
 
-.header-connect {
+.header-link {
   margin-left: auto;
 }
 
@@ -70,25 +70,33 @@ ul {
 
 .header-list {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
 .header-link {
   display: flex;
-  padding-top: 32px;
-  padding-bottom: 32px;
 }
 
-.header-mail {
+/*.header-mail {
+  margin-right: 50px;
+}*/
+
+.header-link-li { 
+  margin-right: 50px;
+  background-color: #2196f3;
+}
+
+
+/*.header-mail, .header-tel {padding-bottom: 0px;
+  
+background-color: aqua;}*/
+
+.header-item {
   margin-right: 50px;
 }
 
-.header-item {
-  display: flex;
-  padding-left: 50px;
-  padding-right: 50px;
-}
+.header-item:last-child {margin-right:0px;}
+
+
 
 /*Логотип*/
 
@@ -100,7 +108,7 @@ ul {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-  margin-right: 93px;
+  
 }
 
 .logo-studio-white {
@@ -129,11 +137,11 @@ ul {
 
 /*.header-nav {
 }*/
-/*.header-list : {
+
+.header-list {
+  margin-left: 93px;
 }
 
-.header-list : {
-}*/
 /*.header-item {
 }*/
 
@@ -151,6 +159,7 @@ ul {
 .header-list :hover {
   color: #2196f3;
 }
+
 
 /*.header-link {
 }*/
@@ -194,9 +203,7 @@ ul {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: #ffffff;
-  margin-bottom: 30px;
-  margin-left: 30px;
-  margin-right: 30px;
+  width: 696px; margin: 0 auto 30px; 
 }
 
 .order-service-button {
@@ -213,20 +220,36 @@ ul {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /*Подход к работе*/
 
 .methods {
   color: var(--header-color);
+  
 }
+
+/*ЭТО ul*/
 .methods-list {
   display: flex;
   margin-top: 94px;
   margin-bottom: 94px;
 }
 
-/*.methods-list:first-child {padding-left: 0px;}
+
+
+.methods-items {
+  width: 270px;
+  margin-right: 30px;
+  }
+
+.methods-items:last-child {margin-right: 0px;}
+
+
 
 
 /*.methods-items {
@@ -240,7 +263,7 @@ ul {
   text-transform: uppercase;
   color: #212121;
   margin-bottom: 10px;
-  padding-right: 30px;
+  
 }
 .methods-text {
   font-weight: 400;
@@ -248,8 +271,14 @@ ul {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
-  padding-right: 30px;
+  
 }
+
+
+
+
+
+
 
 /*Чем мы занимаемся*/
 
@@ -263,7 +292,8 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
+ 
 }
 
 .what-are-we-doing-list {
@@ -271,9 +301,13 @@ ul {
 }
 
 .what-are-we-doing-items {
-  padding-right: 30px;
-  margin-bottom: 94px;
+  margin-right: 30px;
+  display:block; 
+  max-width:100%;
+  height:auto
 }
+
+
 
 /*Наша команда*/
 
@@ -283,12 +317,11 @@ ul {
 .our-team-h3 {
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.17px;
+  line-height: 1.17;
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  padding-top: 94px;
-  padding-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 .our-team-list {
