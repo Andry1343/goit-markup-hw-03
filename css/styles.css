@@ -58,7 +58,7 @@ ul {
 .header {
   padding-top: 32px;
   padding-bottom: 32px;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
 
 .header-nav {
@@ -226,14 +226,17 @@ ul {
 
 .methods {
   color: var(--header-color);
+  padding-top: 95px;
+  padding-bottom: 95px;
 }
 
 /*ЭТО ul*/
 .methods-list {
-  display: flex;
-  margin-top: 94px;
-  margin-bottom: 94px;
+  display: flex; 
 }
+
+/*margin-top: 94px;
+margin-bottom: 94px;*/
 
 .methods-items {
   width: 270px;
@@ -292,11 +295,16 @@ ul {
   height: auto;
 }
 
+.what-are-we-doing-items:last-child {margin-right: 0px;}
+
+
+
+
 /*Наша команда*/
 
 .our-team {
   background: #f5f4fa;
-  padding: 94px;
+  padding: 94px 0;
 }
 .our-team-h3 {
   font-weight: 700;
@@ -320,6 +328,8 @@ ul {
   margin-right: 30px;
 }
 
+.our-team-items:last-child {margin-right: 0px;}
+
 .our-team-name {
   font-weight: 500;
   font-size: 16px;
@@ -342,43 +352,41 @@ ul {
 
 /*Футер*/
 
-.address-list-mail-li :hover {
+.footer-contacts {
+  margin-bottom: 9px;
+}
+
+.footer-contacts :hover {
   color: #2196f3;
   cursor: pointer;
 }
-.address-list-mail-li :focus {
+.footer-contacts :focus {
   color: #2196f3;
   cursor: pointer;
 }
 
-.address-list-tel-li :hover {
+.footer-contacts :hover {
   color: #2196f3;
   cursor: pointer;
 }
 
-.address-list-tel-li :focus {
+.footer-contacts :focus {
   color: #2196f3;
   cursor: pointer;
 }
 
-.address-list-addres-li :hover {
-  color: #2196f3;
-  cursor: pointer;
+.footer-contacts:last-child {
+  margin-bottom: 0px; 
 }
 
-.address-list-addres-li :focus {
-  color: #2196f3;
-  cursor: pointer;
-}
 
 .footer {
   background-color: #2f303a;
 }
 
 .footer {
-  padding: 60px;
+  padding: 60px 0;
 }
-
 
 
 .address-list-addres {
@@ -409,13 +417,10 @@ ul {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.address-list-addres-li {
-  margin-bottom: 9px;
-  margin-top: 20px;
-}
-.address-list-mail-li {
-  padding-bottom: 9px;
-}
+
+.logo-footer {
+  display: block;
+  margin-bottom: 20px;}
 
 
 
@@ -449,7 +454,7 @@ ul {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .filter-buttons {
@@ -465,6 +470,8 @@ ul {
   padding-right: 22px;
   padding-top: 6px;
   padding-bottom: 6px;
+  border-color: transparent;
+  border-radius: 4px;
 }
 
 .project-list {
@@ -492,8 +499,11 @@ ul {
 }
 
 img {
-  display: block;
+  display:block;
+  max-width:100%; 
+  height:auto;  
 }
+
 
 .project-name {
   font-family: 'Roboto';
@@ -503,6 +513,7 @@ img {
   line-height: 2;
   letter-spacing: 0.06em;
   color: #212121;
+  margin-bottom: 4px;
 }
 
 .project-title {
@@ -517,5 +528,7 @@ img {
 
 .text-under-photo-in-portfolio {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
+  border-left: 1px solid #eeeeee;
+  border-right: 1px solid #eeeeee;
+  border-bottom: 1px solid #eeeeee;
 }
