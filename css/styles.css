@@ -290,9 +290,6 @@ margin-bottom: 94px;*/
 
 .what-are-we-doing-items {
   margin-right: 30px;
-  display: block;
-  max-width: 100%;
-  height: auto;
 }
 
 .what-are-we-doing-items:last-child {margin-right: 0px;}
