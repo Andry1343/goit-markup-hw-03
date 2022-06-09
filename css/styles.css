@@ -79,17 +79,13 @@ ul {
   align-items: center;
 }
 
-/*.header-mail {
-  margin-right: 50px;
-}*/
+
 
 .header-link-li {
   margin-right: 50px;
 }
 
-/*.header-mail, .header-tel {padding-bottom: 0px;
-  
-background-color: aqua;}*/
+
 
 .header-item {
   margin-right: 50px;
@@ -383,11 +379,7 @@ background-color: aqua;}*/
   padding: 60px;
 }
 
-/*.address {}*/
 
-/*.address-list {
-  margin-top: 20px;
-}*/
 
 .address-list-addres {
   font-family: 'Roboto';
@@ -425,41 +417,7 @@ background-color: aqua;}*/
   padding-bottom: 9px;
 }
 
-/*.logo-footer {
-  margin-bottom: 20px;}*/
 
-/*Логотип Футер*/
-
-/*.logo-studio {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #000000;
-  
-}
-
-.logo-studio-white {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #ffffff;
-}
-
-.logo-web {
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: #2196f3;
-}*/
 
 /*Портфолио*/
 
@@ -492,7 +450,6 @@ background-color: aqua;}*/
   align-items: center;
   justify-content: center;
   margin-bottom: 34px;
-  background-color: aqua;
 }
 
 .filter-buttons {
